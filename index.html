@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<p>Our website
+	<br>View console by pressing F12</body>
+</p>
+
+<a href="https://github.com/61k">
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	website
+</a>
+
+<script>
+	fetch('https://api.ipify.org/?format=json')
+	.then(results => results.json())
+	.then(console.log); // logs IP to chrome console
+	console.log("ip fetched")
+</script>
+</body>
+</html>
